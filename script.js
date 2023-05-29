@@ -17,6 +17,7 @@ submitBtn.addEventListener("click", function(e) {
   e.preventDefault();
   if(selectedNum) {
   main.style.animation = "unpop-up 0.4s ease-in";
+  main.style.tranform = "scale(0)";
   
   setTimeout(function() {
   main.innerHTML = `<div class="thank-image">
@@ -33,6 +34,7 @@ submitBtn.addEventListener("click", function(e) {
     </p>`;
     main.classList.add("main-thank")
     main.style.animation = "pop-up 0.4s ease-in"
+    main.style.transform = "scale(1)";
   }
   , 400);
   }
