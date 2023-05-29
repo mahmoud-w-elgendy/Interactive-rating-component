@@ -36,6 +36,6 @@ submitBtn.addEventListener("click", function(e) {
     main.style.animation = "pop-up 0.4s ease-in"
 
   }
-  , 400);
+  , 350);
   }
 });
