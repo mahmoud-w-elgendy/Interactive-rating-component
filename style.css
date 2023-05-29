@@ -88,7 +88,10 @@ button:hover {
 .main-thank {
   align-items: center;
   text-align: center;
-  justify-content: flex-end;
+  justify-content: center;
+}
+.main-thank p {
+  margin-bottom: 0;
 }
 @keyframes pop-up {
   0% {
