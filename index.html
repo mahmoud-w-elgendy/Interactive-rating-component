@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Interactive rating component</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  <!-- CSS Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <div id="image">
+      <img src="images/icon-star.svg" alt="star-icon">
+    </div>
+    <h1>How did we do?</h1>
+    <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+    <form class="rating" id="form">
+      <input type="radio" id="one" name="numbers">
+      <label for="one" class="number">1</label>
+      <input type="radio" id="two" name="numbers">
+      <label for="two" class="number">2</label>
+      <input type="radio" id="three" name="numbers">
+      <label for="three" class="number">3</label>
+      <input type="radio" id="four" name="numbers">
+      <label for="four" class="number">4</label>
+      <input type="radio" id="five" name="numbers">
+      <label for="five" class="number">5</label>
+    </form>
+    <button type="submit" form="form" onclick="return false">Submit</button>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
